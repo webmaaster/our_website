@@ -1,0 +1,52 @@
+
+/* BASE STYLE */
+* {
+  -moz-box-sizing: border-box;/* Firefox */
+  -webkit-box-sizing: border-box;/*Safari & Chrome */
+  box-sizing: border-box;/* IE */
+
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+
+} 
+
+#header {
+  background-color: silver;
+  padding: 50px;
+
+}
+
+img {
+  float: right;
+
+}
+
+#main {
+  background-color: lightgreen;
+  padding: 50px;
+  width: 660px;
+  float: left;
+
+}
+
+.clear {
+  clear: both;
+}
+
+#sidebar {
+  background-color: lightpink;
+  padding: 50px;
+  width: 340px;
+  height: 790px;
+  float: left;
+
+}
+
+#footer {
+  background-color: navajowhite;
+  padding: 50px;
+
+}
